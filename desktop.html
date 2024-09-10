@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Preview Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+ 
+</head>
+<style>
+  body{
+      background-color: hsl(30, 38%, 92%);
+  }
+  /*Class center is to align the image*/
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: 55%;
+      margin-top:10%;
+      width: 280px;
+      height:390px;
+      border-radius:8px 0 0 8px ;
+  }
+   /*id whitebox is to align the white box next to the image*/
+  #whitebox{
+      border-radius:0 8px 8px 0;
+      background-color: hsl(0, 0%, 100%) ;
+      display:block;
+      margin-left: auto;
+      margin-right: 555px;
+      margin-top:-25.65%;
+      width: 280px;
+      height:390px;
+  }
+   /*Class p0 is to align the text and to give the google font only to 'PERFUME'*/
+  .p0{
+      border-radius:0 8px 8px 0;
+      display:block;
+      margin-left: auto;
+      margin-right: 530px;
+      margin-top:-25%;
+      width: 280px;
+      color:hsl(228, 12%, 48%);
+      font-family: "Montserrat";
+      font-size: 11px;
+  }
+/*Class p1 is to align the text and to give the google font only to 'GABRIELLE ESSENCE EAU DE PARFUM'*/
+  .p1{
+      margin-left: 705px;
+      margin-right: auto;
+      margin-top:auto;
+      color: hsl(212, 21%, 14%);
+      font-family: "Fraunces";
+      font-weight: 700;
+      font-size: 30px;
+  }
+/*Class p2 is to align the text and to give the google font only to paragraph*/
+  .p2{
+      margin-left: 705px;
+      margin-right: auto;
+      margin-top:-1%;
+      color: hsl(228, 12%, 48%);
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 14px;
+      word-spacing: 0.7px;
+      line-height: 1.5;    
+  }
+/*Class p3 is to align the text and to give the google font only to '$149.99'*/
+  .p3{
+      margin-left: 705px;
+      margin-right: auto;
+      margin-top:auto;
+      color: darkcyan;
+      font-family: "Fraunces";
+      font-weight: 700;
+      font-size: 30px;
+  }
+/*class p4 is to align the original price and to give a line through*/
+  .p4{
+      margin-left: 840px;
+      margin-right: auto;
+      margin-top:-3.75%;
+      color: hsl(228, 12%, 48%);
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 12px;
+      text-decoration: line-through;
+  }
+  #greenbox{
+      border-radius:8px 8px 8px 8px;
+      background-color: darkcyan ;
+      margin-left: auto;
+      margin-right: 600px;
+      margin-top: 1.5%;
+      width: 200px;
+      height:40px;
+  }
+  .p5{
+    font-size: 15px;
+    color: white;
+    margin-left: 760px;
+    margin-right: auto;
+    margin-top: -3.25%;
+    font-family: "Montserrat";
+  }
+</style>
+<body>
+  <img src="D:\development\product-preview-card-component-main\images\image-product-desktop.jpg" alt="product" class="center">
+  <p id="whitebox"></p>
+  <P class="p0">P E R F U M E</P>
+  <p class="p1">Gabrielle<br>Essence Eau<br>De Parfum</p>
+  <p class="p2">A foral, solar and voluptuous<br>interpretation composed by<br>Oliver Polge, Perfumer-Creator<br>for the House of CHANEL.</p>
+  <p class="p3">$149.99</p>
+  <p class="p4">$169.99</p>
+  <p id="greenbox" ></p>
+  <p class="p5"><i style="font-size:20px" class="fa">&#xf07a;</i>    Add to Cart</p>
+</body>
+
